@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constractors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="Images/Logo.jpg" alt="Constractors Logo" onclick="window.location='#'">
+        <div>
+            <a href="#about">About Us</a>
+            <a href="#process">What We do</a>
+            <a href="#services">Our Process</a>
+            <a href="#contact">Why choose Us</a>
+            <a href="#quote">Our Projects</a>
+            <a href="#Portfolio">Our Portfolio</a>
+            <a href="#quote">Contact Us</a>
+            
+            
+
+        </div>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>Constructing Rock Solid Relationships.</h1>
+            <p>Your trusted partner for Contracting and Construction services.</p>
+        </div>
+    </header>
+    <section id="get-to-know" class="get-to-know">
+        <h2>Get to know us.</h2>
+        <button onclick="window.location='#about'">About Constractors</button>
+    </section>
+    <section id="projects" class="projects">
+        <div class="projects-content">
+            <h2>Our clients dream, we bring it to reality.</h2>
+            <button onclick="window.location='#services'">See Services</button>
+        </div>
+    </section>
+    <section id="stats" class="stats">
+        <div class="stats-content">
+            <div class="stat">
+                <h3><span class="count" data-count="250">0</span>+</h3>
+                <p>Residential Projects</p>
+            </div>
+            <div class="stat">
+                <h3><span class="count" data-count="45">0</span>+</h3>
+                <p>Commercial Projects</p>
+            </div>
+            <div class="stat">
+                <h3><span class="count" data-count="1800">0</span>+</h3>
+                <p>Units Sold</p>
+            </div>
+            <div class="stat">
+                <h3><span class="count" data-count="183">0</span></h3>
+                <p>Buildings Delivered</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="video-background" class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="Images/videoplayback.webm" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-content">
+            <h2>Our Process</h2>
+            <button onclick="window.location='#services'">Learn More</button>
+        </div>
+    </section>
+    <section id="why-choose-us" class="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <div class="cards">
+            <div class="card" onclick="window.location='#why-choose-us-page'">
+                <img src="Images/quality.png" alt="Quality Icon">
+                <h3>Quality</h3>
+            </div>
+            <div class="card" onclick="window.location='#why-choose-us-page'">
+                <img src="Images/Integrity.png" alt="Integrity Icon">
+                <h3>Integrity</h3>
+            </div>
+            <div class="card" onclick="window.location='#why-choose-us-page'">
+                <img src="Images/CustomerFocus.png" alt="Customer Focus Icon">
+                <h3>Customer Focus</h3>
+            </div>
+            <div class="card" onclick="window.location='#why-choose-us-page'">
+                <img src="Images/innovation.png" alt="Innovation Icon">
+                <h3>Innovation</h3>
+            </div>
+            <div class="card" onclick="window.location='#why-choose-us-page'">
+                <img src="Images/sustainable.png" alt="Sustainability Icon">
+                <h3>Sustainability</h3>
+            </div>
+        </div>
+    </section>
+    <section id="slideshow" class="slideshow">
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="Images/beirut.jpg" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="Images/sara-calado-Fxs_TgZr-ok-unsplash.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="Images/buildings.jpg" alt="Slide 3">
+            </div>
+            <div class="loading-bar" id="loading-bar"></div>
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+            <button class="see-projects" onclick="window.location='#projects'">See Projects</button>
+        </div>
+    </section>
+    
+    
+    
+    <footer>
+        &copy; 2024 Constractors. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
